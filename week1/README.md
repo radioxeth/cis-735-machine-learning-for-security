@@ -1,7 +1,12 @@
 # Week 1: Introduction to Machine Learning in Security
 
-## Overview
+## Directory
+[Home](/README.md#table-of-contents)
+- **&rarr;[Week 1: Introduction to Machine Learning in Security](/week1/README.md#Week-1--Introduction-to-Machine-Learning-in-Security)**
+- [Week 2: Pattern Recognition and Classification](/week2/README.md#week-2-pattern-recognition-and-classificatoin)
 
+## Overview
+[Top](#directory)
 - Foundations
   - Feature definintion and selection
   - classification algorithms
@@ -10,7 +15,7 @@
 - security of machine learning applications
 
 ## Present and Future of Machine Learning and Security
-
+[Top](#directory)
 ### Current
 - Voice recognition (alexa)
 - Smart home IOT
@@ -22,7 +27,7 @@
 - brain computing interface
 
 ## Machine Learning
-
+[Top](#directory)
 - Machine learning covers algorithms that learn from and make predictions on data
 - Characteristics
   - characterization is a key component of ml
@@ -30,7 +35,7 @@
   - approximation is acceptable. Pattern recognition: face recognition, handwriting recognition
 
 ## Areas in Machine Learning
-
+[Top](#directory)
 - Areas include
   - computational statistics
   - pattern analysis
@@ -41,7 +46,7 @@
   - ...
 
 ## Resources: Software Packages, Conferences, and Journals
-
+[Top](#directory)
 ### Programming language
 - R (statistics)
 - MATLAB
@@ -58,7 +63,7 @@
 - (SEE VIDEO FOR MORE CONFERENCES)
 
 ## Cybersecurity
-
+[Top](#directory)
 - Cybersecurity: defensive component and offensive component
 
 ### Science
@@ -73,7 +78,7 @@
 - harness the potential of the electromagnetic spectrum in a systematic way to defend and protect.
 
 ## Areas in Cybersecurity
-
+[Top](#directory)
 - Fundamental requirements of cybersecurity
   - Authentication
   - Confidentiality
@@ -94,13 +99,15 @@
 - ethics, policy, law
 
 ## Why Machine Learning and Cyber Security?
+[Top](#directory)
 - cross applications
 - not only hardware and software but the psychological and neurological component
 - intent detection: control and convincing
 
 ## How Do They Tie Together?
+[Top](#directory)
 ## Machine Learning Applications to Cybersecurity
-
+[Top](#directory)
 - Applications of machine learning ethods to design security systems
 - understand and explore vulnerability of secure systems
 - design novel attack mechanisms with a view to understanding vulnerabilities of security systems
@@ -110,11 +117,13 @@
 - Malicious code detection: learn the structure of a family of malicious codes; find similarity between a given family of malicious code and a code; if similar, flag as malicious
 
 ## Security of Machine Learning Algorithms
+[Top](#directory)
 - Design algorithms in such a way that the algorithms are secure
   - design of algorithms
   - data manipulation
 
 ## Generic Ares of Interest
+[Top](#directory)
 - Nature and causes
   - models and analysis of attacker behavior
   - game theoretic analysis of incentives for security and privacy:

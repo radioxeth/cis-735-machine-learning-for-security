@@ -136,3 +136,45 @@
 - Intervention approaches
   - information sharing and cooperation, social cohesion
   - cyberrisk management (including cyberinsurance)
+
+## Live Session
+
+### Defintion of Subjects
+- pattern recognition
+  - grouping, description, recognition and classification of perceptual structure
+  - automatic (machine) characterization/classification
+- machine learning
+  - builds on pattern recognition with the addition of online learning
+  
+### Typical machine learning system
+- sensing
+  - converts images/sound/physical inputs to a signal
+- segmentation
+  - isolates sensed objects from 'background'
+- Feature extraction
+  - measures useful properties of objects
+- Classification
+  - Assigns objects a category or class
+
+### Machine Learning Domains
+- cyber security
+  - pen test detection
+  - white hat
+- military
+  - IMINT, ELINT, COMINT
+  - smart munitions
+- Biometrics
+  - retina, fingerprint, face recognition
+- Medicine
+  - radiology
+- Financial
+  - Market forecasting
+
+### Basic Statistics Terminology
+- random experiment: experiment where outcome cannot be predicted
+- sample space: collection of all outcomes of the experiment ($SS$)
+- Event: an outcome from experiment ($E$)
+- Sample: a collection of events from repeated trials/experiments ($S$)
+- Probability: $p=P(E)$ a number assigned to event representing the fraction of experiment resulting with event $A\Rightarrow{}p(x)=P(x=X)$
+- Probability Density Function: $f(x)=p(x=X)$ on $SS$
+- Probability distribution function $F(x)=p(x\le{}X)$ on $SS$

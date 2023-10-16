@@ -114,3 +114,58 @@ $D_1$ the person **IS** who she claims
 
 FMR vs FNMR (maybe?)
 <img src='./images/FMR_FNRM.png'>
+
+## Live Session
+
+
+### Types of projects and what to learn from them
+#### Design
+- come up with requirements
+- cost analysis
+- waht are the important perfomance measures and why
+- expected performance (baesd on published sources)
+- system maintenance
+
+#### Implementation
+- thorourghly go over your problem domain - include background information on current baseline
+- you may use existing library for certain components
+- specify the scope: draw a big picture, and specify where your system fits in 
+- clearly define deliverables - specify your success criteria (eg it should achieve expected performance)
+
+### Bayes Decision Function
+- machine learning is taking information and making a model on it
+- Probabilist models
+
+- stochastic 
+  - mean deviation etc
+- baeysian
+  - a priori probability: $p(\theta{}|x)$ probability of occurrence of event/state object experiment/data
+  - a postori probability: $p(x|\theta{})$ probability of event/object after experiment/data
+
+- example 
+  - what's the probability that a random shy person is a PhD computer science student or a business student
+  - what's the probability that a random speeder is a corvette driver?
+
+  $p(c_i|x)=\frac{p(x|c_i)p(c_i)}{\sum_{j=1}^N{p(x|c_j)p(c_j)}}$
+
+  where $p(c_i)$ is the prior probability of class
+
+  $p(x|c_i)$ is  the class-conditional density function for x given class i
+  $p(c_i|x)$ is the posterior probability of class
+  $N$ is the number of possible classes
+
+  choose $c_i$ where $p(c_i|x)>p(c_j|x)$
+
+  use a lookup table
+
+### Density Estimation
+
+- parametric density estimation
+- hypothesize a function form 
+  - normal (gaussian)
+  - possoin
+  - 
+- non-parametric density estimation
+  - smoothing function ver data
+- semi-parametric density estimation
+  - mixed moodel

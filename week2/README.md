@@ -5,6 +5,7 @@
 [Week 1 Introduction to Machine Learning in Security](/week1/README.md#week-1-introduction-to-machine-learning-in-security)
 **&rarr;[Week 2 Pattern Recognition and Classification](/week2/README.md#week-2-pattern-recognition-and-classificatoin)**
 [Week 3 Distance Measures](/week3/README.md#week-3-distance-measures)
+[Week 4 Feature Definition](/week4/README.md#week-4-feature-definition)
 
 ### Overview and What is Pattern Recognition
 

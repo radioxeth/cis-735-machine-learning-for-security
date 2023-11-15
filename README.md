@@ -8,3 +8,4 @@ CIS 735 Machine Learning for Security
 - [Week 3 Distance Measures](/week3/README.md#week-3-distance-measures)
 - [Week 4 Feature Definition](/week4/README.md#week-4-feature-definition)
 - [Week 5 Classification](/week5/README.md#week-5-classification)
+- [Week 6 Neural Networks](/week6/README.md#week-6-neural-networks)

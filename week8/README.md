@@ -1,4 +1,6 @@
-# Week 8 
+# Week 8 Machine Learning Methods Applied to Security Domain
+
+## Directory
 - [Home](/README.md#table-of-contents)
 - [Week 1 Introduction to Machine Learning in Security](/week1/README.md#week-1-introduction-to-machine-learning-in-security)
 - [Week 2 Pattern Recognition and Classification](/week2/README.md#week-2-pattern-recognition-and-classificatoin)
@@ -7,6 +9,67 @@
 - [Week 5 Classification](/week5/README.md#week-5-classification)
 - [Week 6 Neural Networks](/week6/README.md#week-6-neural-networks)
 - [Week 7 Fusion and Selection](/week7/README.md#week-7-fusion-and-selection)
+- **&rarr;[Week 8 Machine Learning Methods Applied to Security Domain](/week8/README.md#week-8-machine-learning-methods-applied-to-security-domain)**
+
+## Machine Learning Methods Applied to Security Domain
+
+1) Keystroke based authentication
+2) mobile device
+   - authentication
+   - data description
+   - feature extraction
+   - cleaning
+3) BCI (brain computer interface)
+   - authentication
+
+### Keystroke Dynamics
+- an example of behavioral biometrics
+  - relatively high variability between successive samples
+  - still provides ability to distinguish
+  - stable over shorter time spans
+  - phone to replay attacks
+- advantages
+  - samples can be collected remotely, for example, on the internet
+  - widespread use: desktops, laptops, and mobile devices
+  - non-intrusive 
+- choice of device, for example, desktop keyboard or mobile device, can affect sample variability
+  - methods to find invariants are successful
+- useful as second-factor in authentication
+
+### Feature Extraction, Fixed Text and Free Text
+
+#### Feature definition and selection
+- kht: key hold time
+- kil: key interval latency
+- kpl: key press latency
+
+### Feature Cleaning
+#### Outlier Detection
+Method 1
+$x\epsilon\{x-w\sigma{}\mu{},x+w\sigma\mu{}\}$
+
+Method 2
+Define a neighborhood of a feature value as region
+$N=\{\bar{x}_i-r,\bar{x}_i+r\}$
+A feature vector is an outlier if fewer than $\beta$ values fall within the neighborhood.
+
+$x_i=\{247,476,281,250,281,265,1235\}$
+
+in practice for keystroke analysis:
+
+$r=100$
+$\beta=60\%$
+
+
+{50,60,80,50,500,78,90} 
+
+### Classification: Verification and Identification
+#### Classification: verification and identification, modified naive bayes
+
+- a set of L users , U ={U1,U2,U3..UL}
+- feature vector Z={Z1,Z2,...,Zn}; each Z has components KIL and so on
+
+how is the system trained? how does the system use classification?
 
 ## Live Session
 
@@ -33,12 +96,12 @@
 
 ### What happens when you guess wrong?
 - too few parameters?
-  - the underlying process is too generalized - underfitting
+  - the underlying process is too generalized - under-fitting
   - cannot learning the underlying map adequately
 - too many parameters?
-  - the underlying process is too specific - overfitting
+  - the underlying process is too specific - over-fitting
 
-### Approaches to model selectoins
+### Approaches to model selection
 - ad hoc
   - user defined
   - mean square error (MSE)

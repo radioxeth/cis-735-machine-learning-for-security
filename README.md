@@ -1,6 +1,4 @@
 # CIS 735 Machine Learning for Security
-CIS 735 Machine Learning for Security
-
 ## Table of Contents
 - [Home](/README.md#table-of-contents)
 - [Week 1 Introduction to Machine Learning in Security](/week1/README.md#week-1-introduction-to-machine-learning-in-security)

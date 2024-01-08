@@ -117,7 +117,8 @@ issues with data fusion
 
 #### Solution 3 - meta features
 - rather than assuming all features should or should not have been measured, why not tell the system when a feature is expected or not?
-  - best of both worlds
+  - best of both worlds: handles false alarms missing data and different conditions enabling/disabling features
+- we refer to these as meta-features because they do not actually give us information about clas 1 or class 2, but rather tells u show to interpret the values coming out of features A and B
 
 #### Solution 3 problem - complexity
 
